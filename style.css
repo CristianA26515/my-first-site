@@ -1,6 +1,22 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+}
 body
 {color: deeppink;
  text-align: center;
  font-family: "Arial";
 
+}
+header{
+    background: deeppink;
+    display: flex;
+    justify-content: space-between ;
+}
+header nav{
+color: pink;
+display: flex;
+}
+header img{
+    height: 88px;
 }
